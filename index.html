@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>html2PDF | Test</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Teste de Impressão</h1>
+		<p>Este div será impresso.</p>
+		<div style="page-break-before: always;"></div>
+		<p>E este parágrafo também, mas em outra página.</p>
+	</div>
+	<button id="pdf-btn">Gerar PDF</button>
+	<script src="script.js"></script>
+</body>
+</html>
